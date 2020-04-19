@@ -1,14 +1,20 @@
-import React, { Component } from 'react';
-import './App.css';
+import React from 'react';
 
-class App extends Component {
-  render() {
-    return (
+import Header from './Home/Header';
+import Main from './Home/Main';
+
+
+
+function App() {
+  return (
       <div>
-          App
+        <Header/>
+        <Main/>
+
+        
       </div>
-    );
-  }
+    
+  );
 }
 
 export default App;
