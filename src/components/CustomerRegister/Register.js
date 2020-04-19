@@ -3,6 +3,7 @@ import React,  {useState, useEffect} from 'react';
 import { I18nProvider, LOCALES } from '../../i18n';
 
 import translate from '../../i18n/translate';
+import { connect } from 'react-redux'; 
 
 
 function Register() {
@@ -137,6 +138,16 @@ function Register() {
           </I18nProvider>
         )
 
+    Register.prototype = {
+      users: React.PropTypes.array.isRequired
+    }
+
+    function mapStateToProps(state) {
+      return {
+        users: state.users
+      }
+    }
+
 }
 
-export default Register;
+export default connect(mapStateToProps)(Register);

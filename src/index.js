@@ -13,6 +13,7 @@ import { createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import rootReducer from './rootReducer';
 import { composeWithDevTools } from 'redux-devtools-extension';
+import { Provider } from 'react-redux';
 
 
 const store = createStore(
@@ -36,7 +37,9 @@ const  Root = () => (
 );
 
 ReactDOM.render(
-    <Root />,
+  <Provider store={store}>
+    <Root />
+  </Provider>,
   document.getElementById('root')
 );
 registerServiceWorker();
