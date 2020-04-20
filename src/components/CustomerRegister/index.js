@@ -2,7 +2,7 @@ import React from 'react';
 
 import Pricing from './Pricing';
 import Register from './Register';
-import Header from '../Home/Header';
+import Header from '../Home/HeaderContainer';
 
 
 

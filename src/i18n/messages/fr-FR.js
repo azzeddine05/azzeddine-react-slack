@@ -5,6 +5,8 @@ export default {
         'home': 'Acceuil',
         'name': 'Nom',
         'phone': 'Télèphone',
+        'email': 'Adress Email',
+        'password': 'Mot de passe',
 
     }
 }

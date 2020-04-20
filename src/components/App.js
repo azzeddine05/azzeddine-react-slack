@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Header from './Home/Header';
+import Header from './Home/HeaderContainer';
 import Main from './Home/Main';
 
 
