@@ -1,9 +1,8 @@
 import React,  {useState, useEffect, useLayoutEffect, Component} from 'react';
-import LoginModal from './LoginModal';
 
 import HeaderLayout from './HeaderLayout';
 
-import { I18nProvider, LOCALES } from '../../i18n';
+import { I18nProvider, LOCALES } from '../../../../i18n';
 
 
 
@@ -57,7 +56,7 @@ function HeaderContainer() {
         }
 
     }
-    
+
     useEffect(() => {
 
         handleLanguage(locale);
@@ -80,7 +79,7 @@ function HeaderContainer() {
         handleLanguage,
 
     };
-    
+
     return (
         <I18nProvider locale={locale}>
             <HeaderLayout {...customProps}></HeaderLayout>

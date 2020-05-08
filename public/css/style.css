@@ -1757,9 +1757,10 @@ header {
   left: 0;
   top: 0;
   width: 100%;
-  padding: 15px 30px;
+  padding: 21px 30px;
   z-index: 99999;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
+  background-color: #ea5b31;
 }
 @media (max-width: 767px) {
   header.header {
@@ -1800,6 +1801,11 @@ header.header_in.is_sticky {
   left: 0;
   top: 0;
   width: 100%;
+}
+
+a{
+  cursor: pointer;
+
 }
 header.header_in ul#top_menu li a {
   color: #444;
@@ -2031,7 +2037,7 @@ header.sticky .main-menu > ul > li:hover > a, header.header_in .main-menu > ul >
   }
 
   .partner-register {
-    color: #ea5b31 !important;
+    color: #ccc !important;
   }
 
   /* Submenu 3rd level */
@@ -2336,6 +2342,7 @@ ul#top_menu li a.login:before {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  margin-top: 4%;
 }
 .hero_single.inner_pages {
   height: 480px;

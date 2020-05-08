@@ -4,7 +4,7 @@ import { IntlProvider } from 'react-intl';
 import {LOCALES} from './locales';
 import messages from './messages'
 
-const Provider = ({children, locale = LOCALES.FRENSH}) => (
+const Provider = ({children, locale = LOCALES.ARABE}) => (
     <IntlProvider
         locale = {locale}
         textComponent = {Fragment}

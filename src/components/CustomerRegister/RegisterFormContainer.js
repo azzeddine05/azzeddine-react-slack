@@ -1,5 +1,5 @@
 import React,  {useState, useEffect} from 'react';
-import CustomerForm from './CustomerForm';
+import RegisterFormLayout from './RegisterFormLayout';
 
 import classnames from 'classnames';
 
@@ -10,7 +10,7 @@ import { connect } from 'react-redux';
 import {saveUser} from '../../actions/users';
 
 
-function Register({saveUser}) {
+function RegisterFormContainer({saveUser}) {
 
   const [locale, setLocale] = useState(LOCALES.FRENSH);
   const [name, SetName] = useState('');
@@ -91,7 +91,7 @@ function Register({saveUser}) {
                     <span>{errors.title}</span>
                   </div>
                 </div>
-              </div> 
+              </div>
               {/* /row */}
               <h6>{translate("password")}</h6>
               <div className= "row">
@@ -139,7 +139,7 @@ function Register({saveUser}) {
                     <span>{errors.title}</span>
                   </div>
                 </div>
-              </div> 
+              </div>
               {/* /row */}
               <h6>{translate("password")}</h6>
               <div className= "row">
@@ -156,14 +156,14 @@ function Register({saveUser}) {
         </div>
       </div>
       {/* /container */}
-    </div>  
+    </div>
     </I18nProvider>
   )
 
 }
 
 
-  //Register.PropTypes = {
+  //RegisterFormContainer.PropTypes = {
    // users: React.PropTypes.array.isRequired
   //}
 
@@ -174,4 +174,4 @@ function Register({saveUser}) {
   }*/
 
 
-export default connect(null, { saveUser })(Register);
+export default connect(null, { saveUser })(RegisterFormContainer);

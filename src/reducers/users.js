@@ -6,7 +6,9 @@ export default function users(state = [], action = {}) {
                 ...state,
                 action.data
             ];
-
+        case 'ERROR_ADDING':
+            console.log("you are here azzeddine error failed with action data here")
+            console.log(action.data)
         default: return state;
     }
 }

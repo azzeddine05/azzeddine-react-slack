@@ -1,13 +1,13 @@
 import React from 'react';
 
 import Pricing from './Pricing';
-import Register from './Register';
+import Register from './RegisterFormContainer';
 import Header from '../Home/HeaderContainer';
 
 
 
-class CustomerRegister extends React.Component {
-    render() {
+function CustomerRegister()  {
+
         return (
             <div>
                 <Header/>
@@ -16,7 +16,6 @@ class CustomerRegister extends React.Component {
             </div>
         
         )
-    }
 
 }
 

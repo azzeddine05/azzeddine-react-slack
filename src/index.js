@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App';
 import CustomerRegister from './components/CustomerRegister';
+import Admin from './components/Admin/Dashboard';
 import registerServiceWorker from './registerServiceWorker';
 
 
@@ -32,6 +33,8 @@ const  Root = () => (
       <Switch>
           <Route exact path={"/"} component={App} />
           <Route path={"/register"} component={CustomerRegister} />
+
+          <Route path={"/admin"} component={Admin} />
       </Switch>
   </Router>
 );
