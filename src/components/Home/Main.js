@@ -4,8 +4,8 @@ import React from 'react';
 class Main extends React.Component {
     render() {
         return (
-            
-                <main>
+        <div>
+        <main>
         <div className="hero_single version_2">
           <div className="opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.6)">
             <div className="container">
@@ -110,292 +110,7 @@ class Main extends React.Component {
           </div>
           {/* /container */}
         </div>
-        {/* /bg_gray */}
-        <div className="container margin_60_40">
-          <div className="main_title">
-            <span><em /></span>
-            <h2>Popular Restaurants</h2>
-            <p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
-            <a href="#0">View All</a>
-          </div>
-          <div className="owl-carousel owl-theme carousel_4">
-            <div className="item">
-              <div className="strip">
-                <figure>
-                  <span className="ribbon off">-30%</span>
-                  <img src="img/lazy-placeholder.png" data-src="img/location_1.jpg" className="owl-lazy" alt="" />
-                  <a href="detail-restaurant.html" className="strip_info">
-                    <small>Pizza</small>
-                    <div className="item_title">
-                      <h3>Da Alfredo</h3>
-                      <small>27 Old Gloucester St</small>
-                    </div>
-                  </a>
-                </figure>
-                <ul>
-                  <li><span className="loc_open">Now Open</span></li>
-                  <li>
-                    <div className="score"><span>Superb<em>350 Reviews</em></span><strong>8.9</strong></div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="item">
-              <div className="strip">
-                <figure>
-                  <span className="ribbon off">-40%</span>
-                  <img src="img/lazy-placeholder.png" data-src="img/location_2.jpg" className="owl-lazy" alt="" />
-                  <a href="detail-restaurant.html" className="strip_info">
-                    <small>Burghers</small>
-                    <div className="item_title">
-                      <h3>Best Burghers</h3>
-                      <small>27 Old Gloucester St</small>
-                    </div>
-                  </a>
-                </figure>
-                <ul>
-                  <li><span className="loc_open">Now Open</span></li>
-                  <li>
-                    <div className="score"><span>Superb<em>350 Reviews</em></span><strong>9.5</strong></div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="item">
-              <div className="strip">
-                <figure>
-                  <span className="ribbon off">-30%</span>
-                  <img src="img/lazy-placeholder.png" data-src="img/location_3.jpg" className="owl-lazy" alt="" />
-                  <a href="detail-restaurant.html" className="strip_info">
-                    <small>Vegetarian</small>
-                    <div className="item_title">
-                      <h3>Vego Life</h3>
-                      <small>27 Old Gloucester St</small>
-                    </div>
-                  </a>
-                </figure>
-                <ul>
-                  <li><span className="loc_open">Now Open</span></li>
-                  <li>
-                    <div className="score"><span>Superb<em>350 Reviews</em></span><strong>7.5</strong></div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="item">
-              <div className="strip">
-                <figure>
-                  <span className="ribbon off">-25%</span>
-                  <img src="img/lazy-placeholder.png" data-src="img/location_4.jpg" className="owl-lazy" alt="" />
-                  <a href="detail-restaurant.html" className="strip_info">
-                    <small>Japanese</small>
-                    <div className="item_title">
-                      <h3>Sushi Temple</h3>
-                      <small>27 Old Gloucester St</small>
-                    </div>
-                  </a>
-                </figure>
-                <ul>
-                  <li><span className="loc_open">Now Open</span></li>
-                  <li>
-                    <div className="score"><span>Superb<em>350 Reviews</em></span><strong>9.5</strong></div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="item">
-              <div className="strip">
-                <figure>
-                  <span className="ribbon off">-30%</span>
-                  <img src="img/lazy-placeholder.png" data-src="img/location_5.jpg" className="owl-lazy" alt="" />
-                  <a href="detail-restaurant.html" className="strip_info">
-                    <small>Pizza</small>
-                    <div className="item_title">
-                      <h3>Auto Pizza</h3>
-                      <small>27 Old Gloucester St</small>
-                    </div>
-                  </a>
-                </figure>
-                <ul>
-                  <li><span className="loc_open">Now Open</span></li>
-                  <li>
-                    <div className="score"><span>Superb<em>350 Reviews</em></span><strong>7.0</strong></div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="item">
-              <div className="strip">
-                <figure>
-                  <span className="ribbon off">-15%</span>
-                  <img src="img/lazy-placeholder.png" data-src="img/location_6.jpg" className="owl-lazy" alt="" />
-                  <a href="detail-restaurant.html" className="strip_info">
-                    <small>Burghers</small>
-                    <div className="item_title">
-                      <h3>Alliance</h3>
-                      <small>27 Old Gloucester St</small>
-                    </div>
-                  </a>
-                </figure>
-                <ul>
-                  <li><span className="loc_open">Now Open</span></li>
-                  <li>
-                    <div className="score"><span>Superb<em>350 Reviews</em></span><strong>8.9</strong></div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="item">
-              <div className="strip">
-                <figure>
-                  <span className="ribbon off">-30%</span>
-                  <img src="img/lazy-placeholder.png" data-src="img/location_7.jpg" className="owl-lazy" alt="" />
-                  <a href="detail-restaurant.html" className="strip_info">
-                    <small>Chinese</small>
-                    <div className="item_title">
-                      <h3>Alliance</h3>
-                      <small>27 Old Gloucester St</small>
-                    </div>
-                  </a>
-                </figure>
-                <ul>
-                  <li><span className="loc_closed">Now Closed</span></li>
-                  <li>
-                    <div className="score"><span>Superb<em>350 Reviews</em></span><strong>8.9</strong></div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          {/* /carousel */}
-          <div className="banner lazy" data-bg="url(img/banner_bg_desktop.jpg)">
-            <div className="wrapper d-flex align-items-center opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.2)">
-              <div>
-                <small>foogra</small>
-                <h3>More than 3000 Restaurants</h3>
-                <p>Book a table easly at the best price</p>
-                <a href="grid-listing-filterscol.html" className="btn_1">View All</a>
-              </div>
-            </div>
-            {/* /wrapper */}
-          </div>
-          {/* /banner */}
-          <div className="row">
-            <div className="col-12">
-              <div className="main_title version_2">
-                <span><em /></span>
-                <h2>Our Very Best Deals</h2>
-                <p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
-                <a href="#0">View All</a>
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="list_home">
-                <ul>
-                  <li>
-                    <a href="detail-restaurant.html">
-                      <figure>
-                        <img src="img/location_list_placeholder.png" data-src="img/location_list_1.jpg" alt="" className="lazy" />
-                      </figure>
-                      <div className="score"><strong>9.5</strong></div>
-                      <em>Italian</em>
-                      <h3>La Monnalisa</h3>
-                      <small>8 Patriot Square E2 9NF</small>
-                      <ul>
-                        <li><span className="ribbon off">-30%</span></li>
-                        <li>Average price $35</li>
-                      </ul>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="detail-restaurant.html">
-                      <figure>
-                        <img src="img/location_list_placeholder.png" data-src="img/location_list_2.jpg" alt="" className="lazy" />
-                      </figure>
-                      <div className="score"><strong>8.0</strong></div>
-                      <em>Mexican</em>
-                      <h3>Alliance</h3>
-                      <small>27 Old Gloucester St, 4563</small>
-                      <ul>
-                        <li><span className="ribbon off">-40%</span></li>
-                        <li>Average price $30</li>
-                      </ul>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="detail-restaurant.html">
-                      <figure>
-                        <img src="img/location_list_placeholder.png" data-src="img/location_list_3.jpg" alt="" className="lazy" />
-                      </figure>
-                      <div className="score"><strong>9.0</strong></div>
-                      <em>Sushi - Japanese</em>
-                      <h3>Sushi Gold</h3>
-                      <small>Old Shire Ln EN9 3RX</small>
-                      <ul>
-                        <li><span className="ribbon off">-25%</span></li>
-                        <li>Average price $20</li>
-                      </ul>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="list_home">
-                <ul>
-                  <li>
-                    <a href="detail-restaurant.html">
-                      <figure>
-                        <img src="img/location_list_placeholder.png" data-src="img/location_list_4.jpg" alt="" className="lazy" />
-                      </figure>
-                      <div className="score"><strong>9.5</strong></div>
-                      <em>Vegetarian</em>
-                      <h3>Mr. Pepper</h3>
-                      <small>27 Old Gloucester St, 4563</small>
-                      <ul>
-                        <li><span className="ribbon off">-30%</span></li>
-                        <li>Average price $20</li>
-                      </ul>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="detail-restaurant.html">
-                      <figure>
-                        <img src="img/location_list_placeholder.png" data-src="img/location_list_5.jpg" alt="" className="lazy" />
-                      </figure>
-                      <div className="score"><strong>8.0</strong></div>
-                      <em>Chinese</em>
-                      <h3>Dragon Tower</h3>
-                      <small>22 Hertsmere Rd E14 4ED</small>
-                      <ul>
-                        <li><span className="ribbon off">-50%</span></li>
-                        <li>Average price $35</li>
-                      </ul>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="detail-restaurant.html">
-                      <figure>
-                        <img src="img/location_list_placeholder.png" data-src="img/location_list_6.jpg" alt="" className="lazy" />
-                      </figure>
-                      <div className="score"><strong>8.5</strong></div>
-                      <em>Pizza - Italian</em>
-                      <h3>Bella Napoli</h3>
-                      <small>135 Newtownards Road BT4</small>
-                      <ul>
-                        <li><span className="ribbon off">-45%</span></li>
-                        <li>Average price $25</li>
-                      </ul>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          {/* /row */}
-          <p className="text-center d-block d-md-block d-lg-none"><a href="grid-listing-filterscol.html" className="btn_1">View All</a></p>
-          {/* /button visibile on tablet/mobile only */}
-        </div>
+
         {/* /container */}
         <div className="call_section lazy" data-bg="url(img/bg_call_section.jpg)">
           <div className="container clearfix">
@@ -411,7 +126,109 @@ class Main extends React.Component {
         {/*/call_section*/}
         {/* /main */}
       </main>
-      
+
+      <footer>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-3 col-md-6">
+              <h3 data-target="#collapse_1">Quick Links</h3>
+              <div className="collapse dont-collapse-sm links" id="collapse_1">
+                <ul>
+                  <li><a href="about.html">About us</a></li>
+                  <li><a href="help.html">Add your restaurant</a></li>
+                  <li><a href="help.html">Help</a></li>
+                  <li><a href="account.html">My account</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6">
+              <h3 data-target="#collapse_2">Categories</h3>
+              <div className="collapse dont-collapse-sm links" id="collapse_2">
+                <ul>
+                  <li><a href="listing-grid-1-full.html">Top Categories</a></li>
+                  <li><a href="listing-grid-2-full.html">Best Rated</a></li>
+                  <li><a href="listing-grid-1-full.html">Best Price</a></li>
+                  <li><a href="listing-grid-3.html">Latest Submissions</a></li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6">
+              <h3 data-target="#collapse_3">Contacts</h3>
+              <div className="collapse dont-collapse-sm contacts" id="collapse_3">
+                <ul>
+                  <li><i className="icon_house_alt" />97845 Baker st. 567<br />Los Angeles - US</li>
+                  <li><i className="icon_mobile" />+94 423-23-221</li>
+                  <li><i className="icon_mail_alt" /><a href="#0">info@domain.com</a></li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6">
+              <h3 data-target="#collapse_4">Keep in touch</h3>
+              <div className="collapse dont-collapse-sm" id="collapse_4">
+                <div id="newsletter">
+                  <div id="message-newsletter" />
+                  <form method="post" action="assets/newsletter.php" name="newsletter_form" id="newsletter_form">
+                    <div className="form-group">
+                      <input type="email" name="email_newsletter" id="email_newsletter" className="form-control" placeholder="Your email" />
+                      <button type="submit" id="submit-newsletter"><i className="arrow_carrot-right" /></button>
+                    </div>
+                  </form>
+                </div>
+                <div className="follow_us">
+                  <h5>Follow Us</h5>
+                  <ul>
+                    <li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/twitter_icon.svg" alt="" className="lazy" /></a></li>
+                    <li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/facebook_icon.svg" alt="" className="lazy" /></a></li>
+                    <li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/instagram_icon.svg" alt="" className="lazy" /></a></li>
+                    <li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/youtube_icon.svg" alt="" className="lazy" /></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* /row*/}
+          <hr />
+          <div className="row add_bottom_25">
+            <div className="col-lg-6">
+              <ul className="footer-selector clearfix">
+                <li>
+                  <div className="styled-select lang-selector">
+                    <select>
+                      <option value="English" selected>English</option>
+                      <option value="French">French</option>
+                      <option value="Spanish">Spanish</option>
+                      <option value="Russian">Russian</option>
+                    </select>
+                  </div>
+                </li>
+                <li>
+                  <div className="styled-select currency-selector">
+                    <select>
+                      <option value="US Dollars" selected>US Dollars</option>
+                      <option value="Euro">Euro</option>
+                    </select>
+                  </div>
+                </li>
+                <li><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/cards_all.svg" alt="" width={198} height={30} className="lazy" /></li>
+              </ul>
+            </div>
+            <div className="col-lg-6">
+              <ul className="additional_links">
+                <li><a href="#0">Terms and conditions</a></li>
+                <li><a href="#0">Privacy</a></li>
+                <li><span>© 2019 Foogra</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      {/*/footer*/}
+      <div id="toTop" />
+      <div className="layer" />
+        </div>
+
         )
     }
 

@@ -11,7 +11,11 @@ export function saveUser(data) {
                 });
             })
             .catch(error => {
-                console.log('catched error here');
+                console.log('catched error here azzeddine dispatch');
+                return dispatch({
+                    type: 'ERROR_ADDING',
+                    data: 'bastos error '
+                });
             });
     }
 }
